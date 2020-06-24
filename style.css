@@ -1,0 +1,50 @@
+div{
+    box-sizing: border-box;
+    border: solid red;
+    margin:6px;
+}
+
+
+
+@media only screen and (max-width:400px){
+body{
+    background-color: rgb(22, 131, 158);   
+}
+.content{
+    font-size: 20px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+}
+
+}
+@media only screen and (min-width:300px) and (max-width:768px){
+    
+body{
+    background-color:rgb(116, 194, 164);
+
+
+}
+.small{width: 66%;}
+.medieum{width: 33%;}
+.larg{width: 100%;}
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: rgb(44, 44, 201);
+        
+                
+        
+    }
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+}
+
+
